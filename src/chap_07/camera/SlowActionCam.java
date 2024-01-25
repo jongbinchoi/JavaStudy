@@ -1,6 +1,6 @@
 package chap_07.camera;
 
-public class SlowActionCam {
+public class SlowActionCam { //extends ActionCam 상속이 안되이유는 final를 사용해서 상속이안됨.
 
     //상속이 안되어서, 아래 매소드랑 인스턴스 변수를 직접 선언해야함.
     String name;

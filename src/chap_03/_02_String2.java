@@ -29,3 +29,4 @@ public class _02_String2 {
 }
 //trim공백제거
 //substring 위치부터 시작
+//concat는 공백에 뭘 넣을 지

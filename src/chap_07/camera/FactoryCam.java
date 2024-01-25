@@ -9,12 +9,13 @@ public class FactoryCam extends Camera{
 
     public  void recordVideo(){
         //동영상 녹화
-
         /*
         System.out.println(this.name+" : 동영상을 녹화합니다.");
+        //원래 recordVideo를 안쓰고 상속으로 카메라(부모)를 가져다 써야하는데 화재감지기랑 같이쓰고 싶어서 공장카메라에 넣었음
         //이렇게 화재감지기랑 같이 사용해서 오버로딩 할경우 수정을 해야하는데 상속의 의미가 없어짐.
         //이럴때 사용하는게 super임
         */
+
         super.recordVideo(); //부모 클래쓰기능을 사용한 후에 화재감지가 사용됨.
         detectFire();
     }

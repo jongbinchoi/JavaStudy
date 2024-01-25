@@ -36,7 +36,7 @@ public class _07_TypeCasting {
         //숫자를 문자열로
         String s1 = String.valueOf(93);
         //String라는 클래스가 valueof라는 기능 사용해서 숫자를 문자열로 변환해줌
-        s1=Integer.toString(93);//Integer로 사용해도 가능 toString 어떤것을 문자열로 변화해주는 것
+        s1=Integer.toString(93);//Integer로 사용해도 가능, toString 어떤것을 문자열로 변화해주는 것
         System.out.println(s1);//93
 
         String s2 = String.valueOf(98.8);

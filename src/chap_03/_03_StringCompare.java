@@ -24,6 +24,7 @@ public class _03_StringCompare {
 
 
         //자바에서 문자열 내용을 비교하고싶을 때는 equals를  사용!! 기억해라
+        //equalsIgnoreCasse 대소문자 상관없이 비교
 
     }
 }

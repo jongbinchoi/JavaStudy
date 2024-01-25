@@ -20,6 +20,6 @@ public class _07_VariableScope {
             int j;
             System.out.println(num); //num은 가능
         }
-     //   System.out.println(j); // 사용불가
+     // System.out.println(j); // 사용불가
     }
 }

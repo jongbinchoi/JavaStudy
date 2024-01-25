@@ -7,6 +7,7 @@ public class FactoryCam extends Camera implements Detectable, Reportable {
     private Detectable detector;// 인스턴스 변수
     private Reportable reporter;
 
+    //alt+insert해서 setter선택
     public void setDetector(Detectable detector) {
         this.detector = detector;
     }

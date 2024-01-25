@@ -8,6 +8,6 @@ public class _06_ClassMethod {
 //        BlackBox b2 = new BlackBox();
 //        b1.callServiceCenter();
 
-        BlackBox.callServiceCenter();
+        BlackBox.callServiceCenter(); // 객체생성 없이 사용가능함, 클래쓰 함수라 가능
     }
 }

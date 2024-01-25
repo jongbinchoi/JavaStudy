@@ -33,6 +33,7 @@ public class _05_LinkedList {
             System.out.println(s);
         }
 
+        System.out.println("-----------------1");
         list.addLast("김희철");
         for(String s : list){
             System.out.println(s);
@@ -67,6 +68,7 @@ public class _05_LinkedList {
         //변경 (수강권 양도)
         list.set(0,"이수근");
         System.out.println(list.get(0));
+        System.out.println(list.get(1));
 
         System.out.println("--------------확인");
 

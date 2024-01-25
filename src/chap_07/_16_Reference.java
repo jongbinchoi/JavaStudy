@@ -10,14 +10,14 @@ public class _16_Reference {
         System.out.println(i[0]); //0
 
         double[] d = new double[3];
-        System.out.println(d[0]); //0
+        System.out.println(d[0]); //0.0
 
         //참조 자료형 (Non-primitive, Reference Data Types) : String, Camera, FactoryCam..
         String[] s = new String[3];
-        System.out.println(s[0]);
+        System.out.println(s[0]); //null,값을 따로 넣지않으면 null들어감
 
         Camera[] c = new Camera[3];
-        System.out.println(c[0] == null); //ture
+        System.out.println(c[0] == null); //ture , 0인 상태는 null이기 때문에 참?
 
         ////////////////////////
         System.out.println("_______________________");
@@ -46,9 +46,9 @@ public class _16_Reference {
         System.out.println(c2.name);//고장난 카메라
         System.out.println("-----------------");
 
-        changeName(c2);
-        System.out.println(c1);
-        System.out.println(c2);
+        changeName(c2); //첫번째 카메라객체를 가르킴.
+        System.out.println(c1.name);
+        System.out.println(c2.name);
     }
 
         public static void changeName(Camera camera){// changeName 메소드 , 전달값 camera

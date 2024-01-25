@@ -16,6 +16,7 @@ public class _12_Inheritance {
         System.out.println(factoryCam.name);
         System.out.println(speedCam.name);
 
+        System.out.println("---------------------");
         camera.takePicture();
         factoryCam.recordVideo(); //부모클래스에서 레코드랑 사진기능이 제공되서 사용이 가능해짐
         speedCam.takePicture();

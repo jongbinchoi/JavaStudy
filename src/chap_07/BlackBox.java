@@ -14,7 +14,7 @@ public class BlackBox {
     static boolean canAutoReport = false; //자동 신고 기능
     //앞에 static 붙이면 클래스로 만들어진 모든 객체에 적용됨
 
-
+//생성자
     BlackBox(){
         //System.out.println("기본 생성자 호출");
         //this.serialNumber=++counter; //이름이 달라서 this안붙여도 됨.
@@ -26,15 +26,13 @@ public class BlackBox {
     //2. 객체를 생성되는 동시에 객체를 초기화할때 아래같이 가능함.
     //3. 생성자 사이에서도 서로 호출가능함.
 
-   /* BlackBox(String modelName, String resolution, int price, String color){
-        this();
-
+   BlackBox(String modelName, String resolution, int price, String color){
         System.out.println("사용자 정의 생성자 호출");
         this.modelName =modelName;
         this.resolution=resolution;
         this.price = price;
         this.color=color;
-    }*/
+    }
 
 
 
@@ -87,7 +85,7 @@ public class BlackBox {
 
     //새로 추가하는 모델이름
     void appendModelName(String modelName) {
-       this.modelName += modelName;
+       this.modelName += modelName; //+를 붙이면 앞에 것과 연결됨.
        //this붙이면 클래쓰 인스턴스의 변수, 뒤에는 파라미터 즉 전달값으로 전달받은값
 
        // modelName += s; 파라미터가 string s라고 한다면 상관없음

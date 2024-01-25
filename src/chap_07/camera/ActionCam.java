@@ -6,7 +6,7 @@ public final class ActionCam extends Camera { //파이널을 붙이면 액션캠
     //현재 빨간줄 뜨는 이유는 값이 없어서 초기화 되지않아서 그런거임 생성과 동시에 초기화가능
     //1. 생성과 동시에 초기화 2. 생성자안에서 초기화
 
-    public ActionCam() { //생성자
+    public  ActionCam() { //생성자
         super("액션 카메라");
         lens= "광각렌즈";
     }

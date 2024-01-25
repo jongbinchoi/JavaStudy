@@ -17,7 +17,7 @@ public class _07_HashMap {
         map.put("김종국", 3);
         map.put("서장훈", 15);
 
-        System.out.println("총 고객 수 : "+map.size()); //3
+        System.out.println("총 고객 수 : "+map.size()); //4
         System.out.println("--------------");
 
         //조회

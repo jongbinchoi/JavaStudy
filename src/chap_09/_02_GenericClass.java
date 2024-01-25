@@ -14,19 +14,19 @@ public class _02_GenericClass {
         c2.ready();
 
         System.out.println("------------");
-
+        //coffeebyName은 object라는 형을 사용가능해서 정수든 문자열이든 다 사용가능
         CoffeeByName c3 = new CoffeeByName(34);
         c3.ready();
 
         CoffeeByName c4 = new CoffeeByName("최재민");
         c4.ready();
-//위는 각각 클래쓰만들어서 정의해준것
+        //위는 각각 클래쓰만들어서 정의해준것
 
         System.out.println("------------------");
         int c3Name = (int)c3.name;//c3를 오브젝트라 따로 정의를 해줘야함.
         System.out.println("주문 고객 번호 : " + c3Name);
 
-        String c4name = (String)c4.name;
+        String c4name = (String)c4.name; //object라서 형지정해줌
         System.out.println("주문 고객 이름 :" +c4name);
 
         //c4name = (String) c3.name; c3를 정수를 문자열로 형변환 시도한거임, 안됨.
@@ -34,7 +34,7 @@ public class _02_GenericClass {
 
         //<>사이에 대문자를 넣어야함. Integer, Double 같이
         Coffee<Integer> c5 = new Coffee(35);// 앞에 인티져 이기 때문에 뒤에 정수라고 해야함.
-        c5.ready();
+        c5.ready(); //함수 호출
         int c5Name= c5.name; //위 오브젝트와 달리 제너릭에서 정수로 정의했기 때문에 따로 형 변환을 할 필요없음.
         System.out.println("주문 고객 번호 : "+c5Name);
 
@@ -49,7 +49,7 @@ public class _02_GenericClass {
        CoffeeByUser<User> c7= new CoffeeByUser<>(new User("강호동"));
         //뒤 꺽쇠에는 유져가 있어도 되고 없어도 됨.
         //강호동이라는 유저 객체를 만들고 그객체를 커피바이 유저를 생성할때 집어넣음
-        c7.ready();
+        c7.ready(); //함수호출하면 함수안에 있는 다른 함수가 호출되어 문자 두개 나옴.
         System.out.println("----------------------");
 
         CoffeeByUser<User> c8 = new CoffeeByUser<>(new VIPUser("서장훈"));

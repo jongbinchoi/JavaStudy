@@ -7,7 +7,7 @@ public class _Quiz_05 {
         int size=250;
 
         for (int i = 0; i <shoes.length ; i++) {
-            shoes[i]=String.valueOf(size);
+            shoes[i]=String.valueOf(size); //문자열로 변환, 배열에 넣을려면 형이 같아야함. size은 int라 안됨 그래서 써야함.
             size+=5;
             /*
             shoes[i]=250+(5*i);

@@ -22,7 +22,7 @@ public class _08_Iterator {
         }
         System.out.println("----------------");
 
-        Iterator<String> it = list.iterator();
+        Iterator<String> it = list.iterator(); //list요소를 순차 검색할 Iterator 객체
         //ctrl+alt+v 반환형을 자동으로 만들어줌
         System.out.println(it.next());
         System.out.println(it.next());
@@ -49,7 +49,7 @@ public class _08_Iterator {
         while(it.hasNext()) {
             System.out.println(it.next());
         }
-        System.out.println("----------------");
+        System.out.println("----------------HashSet");
         //HasSet은 중복불가
         HashSet<String> set = new HashSet<>();
         set.add("유재석");
@@ -58,7 +58,7 @@ public class _08_Iterator {
         while(itSet.hasNext()) {
             System.out.println(itSet.next());
         }
-        System.out.println("----------------");
+        System.out.println("----------------HashMap");
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("유재석",10);

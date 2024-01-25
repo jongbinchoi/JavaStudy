@@ -35,7 +35,7 @@ public class _01_Array {
         //커피주문
         System.out.println(coffees[0]+"하나"); //아메리하나
         System.out.println(coffees[1]+"하나"); // 카페모카 하나
-        coffees[2]="에스프레소"; //값 벼녕
+        coffees[2]="에스프레소"; //값 변경
         System.out.println(coffees[2]+"하나"); // 에스프레소 하나
         System.out.println(coffees[3]+"하나"); // 카푸치노 하나
         System.out.println("주세요");

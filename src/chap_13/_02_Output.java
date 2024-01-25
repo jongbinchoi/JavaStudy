@@ -8,7 +8,7 @@ public class _02_Output {
        //System.out.printf();
 
         System.out.println("-------정수-------");
-        System.out.printf("%d%n",1);
+        System.out.printf("%d%n",123456);
         System.out.printf("%d %d %d%n", 1,2,3);//1 2 3
         System.out.printf("%d%n",1234);//1234
         System.out.printf("%6d%n",1234);//  __1234(6만큼공간을 확보하고 나서 1234출력)

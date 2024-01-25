@@ -13,9 +13,9 @@ public class _03_ClassVariables {
     //특정 범위를 초과하는 충돌 감지 시 자동 신고 기능개발 여부
         System.out.println("개발전");
         System.out.println(b1.modelName+" 자동 신고 기능 "+b1.canAutoReport);
-        System.out.println(b1.modelName+" 자동 신고 기능 "+b2.canAutoReport);
+        System.out.println(b1.modelName+" 자동 신고 기능 "+BlackBox.canAutoReport);
         System.out.println("모든 블랙박스 제품 자동 신고 기능 : " + BlackBox.canAutoReport);// 권장
-        //왜 권장하냐 canAutoReport는 클래스 변수이기때문
+        //BlackBox왜 권장하냐 canAutoReport는 클래스(static) 변수이기때문
 
         System.out.println("개발 후");
         BlackBox.canAutoReport = true;

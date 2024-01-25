@@ -23,8 +23,8 @@ public class _01_Generics {
         printAnyArray(sArray);
     }
 
-    // T : Type , 아무이름이나 상관없음, k : key, v : Value
-    private static <T> void printAnyArray(T[] array){//array는 전달값으로 그냥 지은것
+    // T : Type , 아무이름이나 상관없음, k : key데이터 타입, v : Value값
+    public static <T> void printAnyArray(T[] array){//array는 전달값으로 그냥 지은것
         for (T t: array) {
             System.out.print(t + " ");
         }
@@ -32,6 +32,8 @@ public class _01_Generics {
     }
     //제네릭경우 하나의 메소드만으로 아래의 세개의 서로다른매소드를 커버해버림.
     //불필요한 코드중복을 줄일수있음.
+    //메소드에서 사용할 타입을 나중에 정하는 것을 제네릭이라고 함.
+    //타입형을 대문자로
 
     private static void printStringArray(String[] sArray) {
         for (String s : sArray) {

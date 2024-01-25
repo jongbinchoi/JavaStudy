@@ -3,6 +3,7 @@ package chap_07.camera;
 public class Camera { //부모 클래스
     public String name; //인스턴스 변수
 
+    //생성자
     public Camera() {
 
         this("카메라");

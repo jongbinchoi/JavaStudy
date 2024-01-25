@@ -33,7 +33,7 @@ public class _18_Enum {
         System.out.println("-----------------");
 
         for(Resolution myRes : Resolution.values()){//values 아래값을 하나씩 꺼내줌
-            System.out.println(myRes.name()+" : "+myRes.ordinal());//name()이름, ordinal()순서대로
+            System.out.println(myRes.name()+" : "+myRes.ordinal());//name()이름, ordinal()순서를 알수 있음
         }
 
         System.out.println("-------------------");

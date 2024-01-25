@@ -16,3 +16,4 @@ public class CoffeeByUser <T extends User>{
         user.addPoint();
     }
 }
+

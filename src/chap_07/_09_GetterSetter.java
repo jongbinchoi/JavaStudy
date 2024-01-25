@@ -16,10 +16,12 @@ public class _09_GetterSetter {
         System.out.println("해상도 : "+b1.resolution);
 
         System.out.println("________________");
+        //set,get은 set에서 원하는 값이 안나오면 get에서 걸러져서 의도 된 값이 나온다고 생각하면 됨.
+
 
         BlackBox b2 =new BlackBox();
         b2.setModelName("하양이");
-        b2.setPrice(-5000);
+        b2.setPrice(-5000); //setPrice가 100000이하라면 getPrice가 100000라고 표현됨, get,set을 묶어서 생각해야됨.
         b2.setColor("화이트00000000");
 
         System.out.println("가격 : "+b2.getPrice()+"원");

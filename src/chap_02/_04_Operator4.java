@@ -9,7 +9,7 @@ public class _04_Operator4 {
         boolean 쏘야 = true;
         boolean 단백질 = true;
 
-        System.out.println(김치찌개 || 쏘야 || 단백질); // || or, 하나라도 ture이면 ture
+        System.out.println(김치찌개 || 쏘야 || 단백질); // || or, 하나라도 true이면 ture
         System.out.println(김치찌개 && 쏘야 && 단백질); // && 그리고 모두 true이면 true
 
         System.out.println((5>3) && (3>1) ); //두식이 모두 참이면 참이됨.

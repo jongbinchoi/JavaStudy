@@ -6,7 +6,7 @@ public class _04_FunctionalInterface {
     public static void main(String[] args) {
         //객체 KRWConverter 변수 converter
         KRWConverter converter = new KRWConverter();
-       // converter.convert(1);
+        // converter.convert(1);
 
         //convertUSD((USD)-> System.out.println(USD+"달러 = "+(USD*1400)+"원"),1);
 

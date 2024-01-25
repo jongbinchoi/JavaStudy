@@ -4,7 +4,7 @@ import java.util.Random;
 public class _11_Package {
     public static void main(String[] args) {
         //패키지
-        //다른 클래쓰에 있는 매소드 사용하고싶을 때 (import 패키지 이름 크래쓰 이름)사용해야함.
+        //다른 클래쓰에 있는 매소드 사용하고싶을 때 (import 패키지 이름 클래스 이름)사용해야함.
         //import 패키지 이름 .*를 쓰면 그 패키지 모든 클래쓰를 사용함.
 
         //패키지(랜덤 클래쓰)
@@ -23,8 +23,10 @@ public class _11_Package {
 
         //로또 번호를 랜덤으로 뽑으려면? 1~45
         System.out.println("로또 번호 : "+ (random.nextInt(45)+1));
+        //(int)(Math.random()*10+1); 만드는 방식 차이 기억해두기
+
         //nextInt(45) : 0이상 45미만의 수
-        //nextInt(45)+1 : 1이상 46미만의 수 = 1이상 45이항의 수, 각 위에 1씩 더함으로 1~45
+        //nextInt(45)+1 : 1이상 46미만의 수 = 1이상 45이하의 수, 각 위에 1씩 더함으로 1~45
 
         //Math, Scanner, StringBuilder, StringBuffer, StringTokenizer
         //BigInteger, BigDecimal
